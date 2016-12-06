@@ -1,0 +1,25 @@
+{
+  "name": "VanillaReactNative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "inquirer": "^0.10.1",
+    "lodash": "^4.16.4",
+    "yeoman-generator": "^0.24.1",
+    "react": "15.3.1",
+    "react-native": "0.36.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.4.1"
+  }
+}
